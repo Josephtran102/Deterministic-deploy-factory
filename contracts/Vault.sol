@@ -18,7 +18,7 @@ contract Vault {
         // owner = payable(msg.sender); 
 
         // For deploy from Factory:
-        owner = owner = payable(0xD73B7782E518238D81E61Ee1b85062AF043fa5cF); //CHANGE TO YOUR ADDRESS;
+        owner = owner = payable(0x0000); //CHANGE TO YOUR ADDRESS;
     }
 
     function deposit() payable public {
